@@ -1,8 +1,7 @@
-﻿namespace DotNetDojo.Dal.Database.dbo;
+﻿namespace WebApi.Dal.Database.dbo;
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
 [Table("Pet", Schema = "dbo")]
 public class Pet

@@ -1,6 +1,6 @@
-using DotNetDojo.Extensions;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

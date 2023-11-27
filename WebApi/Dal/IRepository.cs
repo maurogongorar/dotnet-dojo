@@ -1,6 +1,6 @@
-﻿namespace DotNetDojo.Dal;
+﻿namespace WebApi.Dal;
 
-using DotNetDojo.Dal.Database.dbo;
+using WebApi.Dal.Database.dbo;
 
 public interface IRepository
 {

@@ -1,8 +1,7 @@
-﻿namespace DotNetDojo.Models;
+﻿namespace WebApi.Models;
 
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
 
 public class Owner
 {

@@ -1,4 +1,4 @@
-﻿namespace DotNetDojo.Models;
+﻿namespace WebApi.Models;
 
 public interface IPagedAsyncEnumerable<out T> : IAsyncEnumerable<T>
 {

@@ -1,11 +1,12 @@
 ﻿namespace WebApi.Services;
 
-using DotNetDojo.Dal;
-using DotNetDojo.Extensions;
-using DotNetDojo.Models;
-using DotNetDojo.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
-using PetDao = DotNetDojo.Dal.Database.dbo.Pet;
+using WebApi.Dal;
+using WebApi.Extensions;
+using WebApi.Models;
+using WebApi.Services.Contracts;
+using Owner = WebApi.Dal.Database.dbo.Owner;
+using PetDao = WebApi.Dal.Database.dbo.Pet;
 
 internal class PetService : IPetService
 {
@@ -120,7 +121,7 @@ internal class PetService : IPetService
         dao.OwnerId = ownerId;
 
         await this.myRepository.SaveChangesAsync();
-        dao.Owner = ownerId == 1 ? null : new DotNetDojo.Dal.Database.dbo.Owner { Name = pet.OwnerName! };
+        dao.Owner = ownerId == 1 ? null : new Owner { Name = pet.OwnerName! };
         return PetService.Dao2Dto(dao);
     }
 

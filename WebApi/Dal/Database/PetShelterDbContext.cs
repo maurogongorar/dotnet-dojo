@@ -1,7 +1,7 @@
-﻿namespace DotNetDojo.Dal.Database;
+﻿namespace WebApi.Dal.Database;
 
-using DotNetDojo.Dal.Database.dbo;
 using Microsoft.EntityFrameworkCore;
+using WebApi.Dal.Database.dbo;
 
 internal class PetShelterDbContext : DbContext
 {

@@ -1,11 +1,10 @@
-﻿namespace DotNetDojo.Extensions;
+﻿namespace WebApi.Extensions;
 
-using DotNetDojo.Dal;
-using DotNetDojo.Dal.Database;
-using DotNetDojo.Services;
-using DotNetDojo.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
+using WebApi.Dal;
+using WebApi.Dal.Database;
 using WebApi.Services;
+using WebApi.Services.Contracts;
 
 public static class ServiceCollectionExtensions
 {

@@ -1,11 +1,11 @@
-﻿namespace DotNetDojo.Services;
+﻿namespace WebApi.Services;
 
-using DotNetDojo.Dal;
-using DotNetDojo.Extensions;
-using DotNetDojo.Models;
-using DotNetDojo.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
-using OwnerDao = DotNetDojo.Dal.Database.dbo.Owner;
+using WebApi.Dal;
+using WebApi.Extensions;
+using WebApi.Models;
+using WebApi.Services.Contracts;
+using OwnerDao = WebApi.Dal.Database.dbo.Owner;
 
 internal class OwnerService : IOwnerService
 {

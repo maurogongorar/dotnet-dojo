@@ -1,8 +1,8 @@
-﻿namespace DotNetDojo.Dal;
+﻿namespace WebApi.Dal;
 
-using DotNetDojo.Dal.Database;
-using DotNetDojo.Dal.Database.dbo;
 using Microsoft.EntityFrameworkCore;
+using WebApi.Dal.Database;
+using WebApi.Dal.Database.dbo;
 
 internal class Repository : IRepository
 {

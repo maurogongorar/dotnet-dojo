@@ -1,6 +1,6 @@
-﻿namespace DotNetDojo.Services.Contracts;
+﻿namespace WebApi.Services.Contracts;
 
-using DotNetDojo.Models;
+using WebApi.Models;
 
 public interface IOwnerService
 {

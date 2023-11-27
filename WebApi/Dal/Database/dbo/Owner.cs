@@ -1,4 +1,4 @@
-﻿namespace DotNetDojo.Dal.Database.dbo;
+﻿namespace WebApi.Dal.Database.dbo;
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

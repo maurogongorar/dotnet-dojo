@@ -1,9 +1,9 @@
-﻿namespace DotNetDojo.Controllers;
+﻿namespace WebApi.Controllers;
 
-using DotNetDojo.Extensions;
-using DotNetDojo.Models;
-using DotNetDojo.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Extensions;
+using WebApi.Models;
+using WebApi.Services.Contracts;
 
 [Route("api/owners")]
 [ApiController]

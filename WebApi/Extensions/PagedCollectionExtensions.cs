@@ -1,6 +1,6 @@
-﻿namespace DotNetDojo.Extensions;
+﻿namespace WebApi.Extensions;
 
-using DotNetDojo.Models;
+using WebApi.Models;
 
 public static class PagedCollectionExtensions
 {
